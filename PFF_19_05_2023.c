@@ -30,7 +30,7 @@ int main() {
                 printf("El residuo no es reciclable. Los residuos no reciclables se pueden gestionar de diversas formas, como su envio a vertederos sanitarios seguros, la incineracion controlada para generar energia y prevenir la liberacion de contaminantes, y la transformacion de algunos residuos en combustibles a traves de tecnologias de conversion de energia. Reducir la generacion de residuos no reciclables es fundamental, mediante decisiones conscientes al comprar productos con menor impacto ambiental y practicas de reutilizacion, reparacion y comparticion de objetos.\n");
             }
             else if (strcmp(residuo, "comida") == 0 || strcmp(residuo, "cascaras") == 0 || strcmp(residuo, "ramas") == 0 || strcmp(residuo, "madera") == 0 || strcmp(residuo, "envases contaminados") == 0 || strcmp(residuo, "material medico") == 0 || strcmp(residuo, "radiactivos") == 0 || strcmp(residuo, "plasticos de un solo uso") == 0) {
-                printf("El residuo es orgánico.\n");
+                printf("El residuo es orgánico.Los residuos orgánicos se pueden compostar en compostadores caseros o sistemas comunitarios, generando compost para fertilizar jardines y cultivos. En comunidades con recogida selectiva, se procesan en plantas de compostaje o se utilizan para producir biogás. También pueden ser utilizados como alimento para animales, cumpliendo requisitos y regulaciones específicas, como restos de alimentos no cocinados para cerdos o animales de granja.\n");
             }
             else {
                 printf("El residuo no se reconoce.\n");
